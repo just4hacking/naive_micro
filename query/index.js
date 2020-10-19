@@ -40,7 +40,7 @@ function handleEvent(event) {
 }
 
 app.post('/events', (req, res) => {
-  handleEven(req.body)
+  handleEvent(req.body)
   res.send({})
 })
 
